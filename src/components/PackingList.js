@@ -1,5 +1,6 @@
 // Sorting Arrays 
-// Ascending Order => if a > b switch order 
+// Ascending Order => if a > b switch order, if b > a keep the order
+ 
 
 import { useState } from "react";
 import Item from "./Item.js";
