@@ -11,6 +11,7 @@ export default function PackingList({
   onToggleItem,
   onClearListProps,
 }) {
+ 
   const [sortBy, setSortBy] = useState("input");
 
   let sortedItems;
