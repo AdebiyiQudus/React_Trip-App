@@ -38,6 +38,7 @@ export default function Form({ onAddItemsProps }) {
           </option>
         ))}
       </select>
+      
       <input
         type="text"
         placeholder="Item..."
