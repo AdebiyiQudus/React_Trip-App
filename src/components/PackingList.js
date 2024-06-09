@@ -16,6 +16,7 @@ export default function PackingList({
 
   let sortedItems;
 
+  // Conditional Statement
   if (sortBy === "input") sortedItems = itemsProps;
 
   if (sortBy === "description")
