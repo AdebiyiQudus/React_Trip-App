@@ -1,3 +1,4 @@
+// Statistics
 export default function Stats({ itemProps }) {
   // If the items length is empty or does not exist return
   if (!itemProps.length)
