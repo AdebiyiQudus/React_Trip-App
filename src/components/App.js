@@ -56,6 +56,7 @@ export default function App() {
   return (
     <div className="app">
       <Logo />
+      
       <Form onAddItemsProps={handleAddItems} />
       {/* Lifting up state by parsing a props from a parent to a sibling for easy access and alson for re-usablity */}
       <PackingList
